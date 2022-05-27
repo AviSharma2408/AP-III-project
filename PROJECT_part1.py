@@ -76,6 +76,9 @@ for pair in kahlil_unique_pairs:
         period_words.append(next_word)
     if len(period_words) == 1:
         break
+    
+#To find average length of a sentence
+avg_sentence_length = len(poem_1)/len(period_words)
 
 #Capitalizing the "i's"
 for word in poem_1:
